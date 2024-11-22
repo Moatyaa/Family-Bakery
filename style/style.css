@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Alegreya", serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.heading {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+/* Start Header Section  */
+.home {
+    height: 100vh;
+    background-image: url(../images/hero-section-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.logo {
+    display: inline-block;
+    width: 49.5%;
+}
+
+.logo img {
+    height: 50px;
+    margin-top: 15px;
+}
+
+.navs {
+    display: inline-block;
+    width: 49.5%;
+    color: white;
+    text-align: right;
+    list-style: none;
+    vertical-align: top;
+}
+
+.navs  li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    margin: 30px 0px 0px 15px;
+}
+
+.home-content {
+    width: 700px;
+    margin: 150px auto 0px;
+    color: white;
+    text-align: center;
+}
+
+.home-content p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 22px;
+    line-height: 2;
+}
+
+.home-content .font-bigger {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.home-content h1 {
+    font-weight: normal;
+    font-size : 80px;
+}
+
+.home-btns button {
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.home-btns .lmBtn {
+    background-color: #8e7754;
+    margin-right: 10px;
+}
+
+.home-btns .cuBtn {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+/* End Header Section  */
+/* Start Who we Are Section */
+.who-we-are {
+    margin: 90px 0;
+}
+.who-we-are .left-side {
+    width: 45%;
+    display: inline-block;
+}
+
+.left-side img {
+    max-width: 100%;
+}
+
+.right-side {
+    display: inline-block;
+    width: 45%;
+    margin-left: 80px;
+}
+
+.right-side p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #686868;
+}
+
+.right-side .descripition {
+    line-height: 2;
+    margin: 20px 0;
+}
+
+.right-side ul {
+    list-style: none;
+}
+
+.right-side ul li img {
+    width: 50px;
+}
+
+.right-side ul li p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0 0 10px;
+}
+/* End Who we Are Section */
+/* Start Our Location Section */
+.our-location {
+    padding: 90px 0;
+    background-color: #f8f8f8;
+}
+
+.our-location .left-side {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 85px;
+}
+
+.our-location .left-side p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #686868;
+    margin: 20px 0;
+    line-height: 1.7;
+}
+
+.our-location .right-side {
+    display: inline-block;
+    width: 45%;
+    margin-left: 80px;
+}
+
+.our-location .right-side img {
+    max-width: 100%;
+}
+/* End Our Location Section */
+/* Start Works Section */
+.works {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.works-title {
+    margin-bottom: 60px;
+}
+
+.works-title p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #686868;
+    margin: 20px 0;
+}
+
+.works-content .item {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.works-content .item img {
+    max-width: 100%;
+}
+
+.works-content .item h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.works-content .item p { 
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #686868;
+    margin: 15px;
+    line-height: 1.7;
+}
+
+.works-content .item-margin {
+    margin: 0 5%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* End Works Section */
+/* Start Contact Section */
+.contact {
+    padding: 90px 0;
+    background-color: #f8f8f8;
+}
+
+.contact .left-side {
+    float: left;
+    width: 45%;
+}
+
+.contact .left-side p { 
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #686868;
+    margin: 15px 0;
+    line-height: 1.7;
+}
+
+.contact .left-side ul {
+    list-style: none;
+}
+
+.contact .left-side ul li {
+    margin-bottom: 10px;
+}
+
+.contact .left-side ul li img {
+    width: 30px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    float: left;
+}
+
+.contact .left-side ul li p {
+    float: left;
+    margin: 0px 15px;
+}
+
+.contact .right-side {
+    float: left;
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: calc(10% - 2px);
+}
+
+.contact .right-side iframe {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* End Contact Section */
+/* Start Footer */
+.footer .high-section {
+    padding-top: 90px;
+    background-color: #403d38;
+}
+
+.footer .high-section .block  {
+    float: left;
+    width: 23%;
+    color: white;
+    padding: 0 1%;
+}
+
+.footer .high-section .block h4 {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Alegreya';
+    margin: 20px 0px;
+}
+
+.footer .high-section .block p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #969696;
+    margin: 20px 0px;
+    line-height: 1.7;
+}
+
+.footer .high-section .block ul {
+    list-style: none;
+}
+
+.footer .high-section .block ul li img {
+    width: 20px;
+    float: left;
+}
+
+.footer .high-section .block ul li p {
+    border-bottom: 1px solid #ffffff12;
+    padding-bottom: 5px;
+}
+
+.footer .low-section {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #353330;
+}
+
+.footer .low-section p{ 
+    color: #969696;
+    margin: 20px 0;
+}
+
+.footer .low-section ul {
+    list-style: none;
+}
+
+.footer .low-section ul img {
+    width: 50px;
+    background-color: #484540;
+    border-radius: 50%;
+}
+/* End Footer */
